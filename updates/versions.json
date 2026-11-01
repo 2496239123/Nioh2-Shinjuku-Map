@@ -1,0 +1,2011 @@
+{
+  "schema": 1,
+  "releases": [
+    {
+      "id": "guardian-spirit",
+      "kind": "mod",
+      "name": "净御鸟",
+      "version": "R6",
+      "downloads": [
+        {
+          "url": "https://www.ilanzou.com/s/daNyXz5G1"
+        }
+      ],
+      "changelog": "修正净属性抗性与积累，附加伤害显示绿色数字，使用青绿特效。\n通关奈落狱 108 层并开启深层后解锁；已开启深层的角色自动补发。\n独立于原版天御鸟，不要求启用多武器切换。",
+      "requirements": "仅适用于已接入净御鸟直连功能的共用入口；本包沿用现有入口，不提供首次安装的入口迁移。",
+      "sha256": "fdcbd896959f2ef64c5c6c47c87c1a2e383bb8058ac25100ce86f77a00012034",
+      "files": [
+        {
+          "path": "plugins/JingyuniaoDatabaseProbe.dll",
+          "sha256": "ac371f82f7355a72006523d6a2a3aa2d46e7e7fa61f8adf6293faa042791cda8"
+        }
+      ],
+      "recognition_files": [
+        {
+          "path": "plugins/JingyuniaoDatabaseProbe.dll",
+          "sha256": "ac371f82f7355a72006523d6a2a3aa2d46e7e7fa61f8adf6293faa042791cda8"
+        }
+      ],
+      "prefix": "净御鸟R6_精简升级包/游戏文件"
+    },
+    {
+      "id": "eternal-travel",
+      "kind": "mod",
+      "name": "永恒道祖神护符",
+      "version": "1.5.2.2",
+      "downloads": [
+        {
+          "url": "https://www.ilanzou.com/s/cuByXNZ7q"
+        }
+      ],
+      "changelog": "按下左摇杆（L3）直接返回神社，免确认、加速施放，道具保留，支持预输入。\n背包保留“使用／设置快捷键”菜单。",
+      "requirements": "仁王2 Steam 1.28.08，需支持 API v1 的统一插件入口。旧目录或旧英文名的副本需要迁移，避免重复加载。",
+      "sha256": "72847eb57d155258f72f18028b52d3b25bcb5ebaeaa5cbfce5c402cf900eb1dc",
+      "files": [
+        {
+          "path": "plugins/永恒道祖神护符.dll",
+          "sha256": "c793e4ff275e6f63fbb7b11672fd4881ac7375ec9bb3c0e90f5f2642e27bc3e0"
+        },
+        {
+          "path": "安装说明.txt",
+          "sha256": "f367c55479627f3c1e071deb353a125bfb744a5fddcad67bd630518eff442925"
+        }
+      ],
+      "recognition_files": [
+        {
+          "path": "plugins/永恒道祖神护符.dll",
+          "sha256": "c793e4ff275e6f63fbb7b11672fd4881ac7375ec9bb3c0e90f5f2642e27bc3e0"
+        }
+      ],
+      "prefix": ""
+    },
+    {
+      "id": "third-shortcut",
+      "kind": "mod",
+      "name": "第三栏快捷道具",
+      "version": "1.7.2.0",
+      "downloads": [
+        {
+          "url": "https://www.ilanzou.com/s/fzxy1ooZh"
+        }
+      ],
+      "changelog": "Xbox B＋十字键（PS：○＋十字键）使用第三组道具，显示尺寸为原来的 50%，支持预输入。\n原生快捷栏设为 3 组用于编辑；实战普通切页仍只循环前两组。\nR1 优先：R1＋B＋十字键不触发第三栏；松开 R1 后需先松开 B，再重新组合才恢复。",
+      "requirements": "仁王2 Steam 1.28.08，需支持 API v1 的统一插件入口。旧目录或旧英文名的副本需要迁移，避免重复加载。",
+      "sha256": "63d3e9515e487a932a7e2ffc30595f29410c82df7a71d173817c1b0f84a01cd7",
+      "files": [
+        {
+          "path": "plugins/第三栏快捷道具.dll",
+          "sha256": "b11447d7d3133a35b7913ef03ce52e85bf98de2bb6cb1e25b7038e8651e6dcc7"
+        },
+        {
+          "path": "安装说明.txt",
+          "sha256": "55e44ce8e6c12584b4e996b75660528e9280e0f820ee9e1b8c6b2d21763dfccb"
+        }
+      ],
+      "recognition_files": [
+        {
+          "path": "plugins/第三栏快捷道具.dll",
+          "sha256": "b11447d7d3133a35b7913ef03ce52e85bf98de2bb6cb1e25b7038e8651e6dcc7"
+        }
+      ],
+      "prefix": ""
+    },
+    {
+      "id": "weapon-switch",
+      "kind": "mod",
+      "name": "五武器切换",
+      "version": "V3",
+      "downloads": [
+        {
+          "url": "https://www.ilanzou.com/s/kLwyXzPmV"
+        }
+      ],
+      "changelog": "装备页 R2＋Y 打开绑定面板，A 绑定、B 返回。\nR1＋↑／←／→ 选择三把额外武器，R1＋↓ 切回原版双槽。\nR2＋←／→ 翻道具页，R2＋↑ 切换远程武器。",
+      "requirements": "仁王2 Steam 1.28.8.0；配套的 r48／r53 完整地图及新版插件体系。包内四个 DLL 需配套核对；入口与其他包不同，不能直接覆盖现有组合。",
+      "sha256": "6939a3112eac195d6a0e2620f1e89d1be183c7c6d195349b3def93534674ee02",
+      "files": [
+        {
+          "path": "Nioh2Mods.original.dinput8.dll",
+          "sha256": "51c43a11e7cd5653f61d756f2da48daa5a089c41cf5b1920b832739ffb15d078"
+        },
+        {
+          "path": "PairedNativeHostR4.previous.dinput8.dll",
+          "sha256": "825cbf4eac01856c5b202a788a1a817f194ad5f8bfd37597e354b2783ad53dd7"
+        },
+        {
+          "path": "dinput8.dll",
+          "sha256": "4a0272c02b6a22ebf70f0cab3411a1ae563ac08c589508d709bb053b44e199ca"
+        },
+        {
+          "path": "plugins/SixWeaponSwitch.dll",
+          "sha256": "a3bed2abbd0ca4ba03249ffa4fde225933aa14cc61089b062abb79c9191970c4"
+        }
+      ],
+      "recognition_files": [
+        {
+          "path": "plugins/SixWeaponSwitch.dll",
+          "sha256": "a3bed2abbd0ca4ba03249ffa4fde225933aa14cc61089b062abb79c9191970c4"
+        }
+      ],
+      "prefix": "五武器V3_dinput8直连_极简安装包/复制到游戏目录"
+    },
+    {
+      "id": "lb-b-skill",
+      "kind": "mod",
+      "name": "LB＋B 武技",
+      "version": "1.43",
+      "downloads": [
+        {
+          "url": "https://www.ilanzou.com/s/lRUyXzPKm"
+        }
+      ],
+      "changelog": "保留 v1.43 武技调整，手柄使用 LB＋B。\n键盘使用游戏防御键＋自选键；例如设置 Key=Q 后使用防御键＋Q。\n保留已有自选按键配置。",
+      "requirements": "仁王2 Steam 1.28.8.0；必须保留 Mods/Nioh2LBBOnlyMod_____ 目录名。已有整合入口时只更新功能文件，不能用包内独立入口覆盖共用入口。",
+      "sha256": "5bb5e825c75d6550acd23b4474790e1256d2e7961a55f73d516356f8a364962d",
+      "files": [
+        {
+          "path": "dinput8.dll",
+          "sha256": "9344b44f9d7909fa633e88d9a854a6485a348fc0ecaca05acf247c9a9c6841e1"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/archive/archive_00.lnk",
+          "sha256": "3cd1bfa2df80eba911d82855817499b4d47f6d7765d51aefa5315d175129aa3c"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/archive/lfm_order_00.bin",
+          "sha256": "b2c5212018c034dcdfda8a12e598add2df65395dfb5441604e76332582343731"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/archive/load_inf_00.bin",
+          "sha256": "b191e5483c98c5309f57341ff46b6377eef7558c4fcc8540136b3b0f0a382182"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "268e4f72148eab1fa64f39f0eb084ed427efe2693310e2b5313d5267c3229031"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBWeaponSkill.dll",
+          "sha256": "c642e89c3ce4cafe42f61916e0313d479dfcb2ef21bf074b4e4ce566acff81d4"
+        },
+        {
+          "path": "安装说明.txt",
+          "sha256": "dd6d96b702df8cd9745e715281e2b220346881f3e2b76b56f98752dd7151a747"
+        }
+      ],
+      "recognition_files": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "268e4f72148eab1fa64f39f0eb084ed427efe2693310e2b5313d5267c3229031"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBWeaponSkill.dll",
+          "sha256": "c642e89c3ce4cafe42f61916e0313d479dfcb2ef21bf074b4e4ce566acff81d4"
+        }
+      ],
+      "prefix": ""
+    }
+  ],
+  "history": [
+    {
+      "id": "action-voice",
+      "record_id": "action-voice-bc9124fb40dbe78bc5cff92d",
+      "name": "动作语音",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/ActionVoice_20261017/ActionVoice.dll",
+          "sha256": "14813772fba3ad77401576ee36c7c40333ec5ae01791912df775c6d8ed1e64e1"
+        }
+      ],
+      "version_labels": [],
+      "samples": [],
+      "notes": "",
+      "changelog": "每份≤8MiB且≤10秒。\n支持中文文件名。"
+    },
+    {
+      "id": "alatreon",
+      "record_id": "alatreon-13eb09cbe7aded5117c49900",
+      "name": "煌黑龙技能",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/AlatreonSkillBridge/AlatreonSkillBridge.dll",
+          "sha256": "b3db7c2c37e89fcb1ae5fdcb91a8a355a231fd38c94be4d781065c5eac2a492e"
+        }
+      ],
+      "version_labels": [
+        "v1"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "修复奈落狱部分场景中刀光和电弧不显示的问题。"
+    },
+    {
+      "id": "eternal-travel",
+      "record_id": "eternal-travel-00f9cd217cbe2da783a073c8",
+      "name": "永恒道祖神护符",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/永恒道祖神护符/EternalTravel.dll",
+          "sha256": "a4305ffc1ebedc12d96216d904fa5a6ecaab3116481de11abbf9153da20d5cbf"
+        }
+      ],
+      "version_labels": [],
+      "samples": [],
+      "notes": "",
+      "changelog": ""
+    },
+    {
+      "id": "eternal-travel",
+      "record_id": "eternal-travel-02bdd64a999030c94ed22375",
+      "name": "永恒道祖神护符",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/永恒道祖神护符/EternalTravel.dll",
+          "sha256": "96b8da375eff8f155dbf5d9a1057777a93b96a7120de3f966edc74f55b6d98f5"
+        }
+      ],
+      "version_labels": [
+        "v1.3"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "本包：新增常驻特殊道具“永恒道祖神护符”，不消耗、免确认、两倍施放速度。\n按下左摇杆 L3 直接使用，无需占快捷栏格子。\n长按不连发，菜单保留原输入。\n预输入：提前按下的指令保留 0.5 秒，等动作允许使用时接续释放；\n只保留最后一次指令，长按不连发，打开菜单或超时会清除。\n第三栏 R2 组合键优先于普通方向键道具；\n请先按住 R2 再按方向。"
+    },
+    {
+      "id": "eternal-travel",
+      "record_id": "eternal-travel-06e00a314eec4b5352643ab4",
+      "name": "永恒道祖神护符",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "plugins/EternalTravel.dll",
+          "sha256": "c2e484ee22f67428968bc92158853e8ad9307a4ac1a9d871832e3d0162b0c9c1"
+        }
+      ],
+      "version_labels": [
+        "v1.5.2"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "基于已验证的护符 v1.5.1 保留：独立永久道具、L3、免确认、地面2倍施放、500ms预输入、替身复活空中使用。\n背包“使用／设置快捷键”菜单保留，原版护符不改。"
+    },
+    {
+      "id": "eternal-travel",
+      "record_id": "eternal-travel-5b6a0e122be941e35195827c",
+      "name": "永恒道祖神护符",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/EternalTravel/EternalTravel.dll",
+          "sha256": "e4fa18b7649184f243f2cd3deda2002f55895666d068f06dfa0990ce17569d38"
+        }
+      ],
+      "version_labels": [],
+      "samples": [],
+      "notes": "",
+      "changelog": ""
+    },
+    {
+      "id": "eternal-travel",
+      "record_id": "eternal-travel-5d7401e1b3426db7a89a44a5",
+      "name": "永恒道祖神护符",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/永恒道祖神护符/EternalTravel.dll",
+          "sha256": "333779a084a0c0c6d030e16b59441bd2e1e470dedc6bc5a9c3dc47353baa29cf"
+        }
+      ],
+      "version_labels": [
+        "v1.5.4.0"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": ""
+    },
+    {
+      "id": "eternal-travel",
+      "record_id": "eternal-travel-96a427ad706ebbed02638ca9",
+      "name": "永恒道祖神护符",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/永恒道祖神护符/EternalTravel.dll",
+          "sha256": "8f889ec8594ec4dea523d311d3f06a083b70930dc1e30e3da72dded0f435c677"
+        }
+      ],
+      "version_labels": [],
+      "samples": [],
+      "notes": "",
+      "changelog": ""
+    },
+    {
+      "id": "eternal-travel",
+      "record_id": "eternal-travel-98754941c478e66195888da6",
+      "name": "永恒道祖神护符",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/永恒道祖神护符/EternalTravel.dll",
+          "sha256": "a74047c5d4bc827d8dca95841031e769a6712a6d2d41921511a7078d8e3e02ff"
+        }
+      ],
+      "version_labels": [
+        "v1.5"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "新增常驻特殊道具“永恒道祖神护符”：使用不消耗，免确认，地面施放速度为两倍。\n按下左摇杆 L3 直接使用，无需占用快捷栏格子；\n长按不连发。\n菜单保留原有输入。\n背包中的“使用／设置快捷键”等菜单保留，原版道祖神护符保持原样。\n预输入保留 0.5 秒，动作允许使用后接续释放；\n打开菜单或超时会清除。\n支持替身符复活腾起、下落阶段按一次 L3 发起原版返回神社流程，不需落地后补按。\n地面 L3、连招预输入和施放速度沿用已验证的 v1.4.1。\n旧整合版用户请先更新第三栏独立版，避免重复接管 L3。"
+    },
+    {
+      "id": "eternal-travel",
+      "record_id": "eternal-travel-af8683fc9b4e7fa683f868fd",
+      "name": "永恒道祖神护符",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "plugins/永恒道祖神护符.dll",
+          "sha256": "c793e4ff275e6f63fbb7b11672fd4881ac7375ec9bb3c0e90f5f2642e27bc3e0"
+        }
+      ],
+      "version_labels": [
+        "v1.5.2.2"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": ""
+    },
+    {
+      "id": "eternal-travel",
+      "record_id": "eternal-travel-c815a25811797c844107ebf3",
+      "name": "永恒道祖神护符",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/永恒道祖神护符/EternalTravel.dll",
+          "sha256": "9e92f98d38dd8ef2be7b6c6fedd2a6b1fcdf7311d87c285aaf6c69d00c3df73d"
+        }
+      ],
+      "version_labels": [
+        "v1.5.1.1"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": ""
+    },
+    {
+      "id": "eternal-travel",
+      "record_id": "eternal-travel-cefa28a4bf140e6a20578148",
+      "name": "永恒道祖神护符",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/永恒道祖神护符/EternalTravel.dll",
+          "sha256": "6f06064b7572e652a2ea4a8d694fb72503177bce433ee8823d8f05251eb66e51"
+        }
+      ],
+      "version_labels": [
+        "v1.4.1"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "本包：新增常驻特殊道具“永恒道祖神护符”，不消耗、免确认、两倍施放速度。\n按下左摇杆 L3 直接使用，无需占快捷栏格子。\n长按不连发，菜单保留原输入。\n预输入：提前按下的指令保留 0.5 秒，等动作允许使用时接续释放；\n只保留最后一次指令，长按不连发，打开菜单或超时会清除。\n第三栏 R2 组合键优先于普通方向键道具；\n请先按住 R2 再按方向。"
+    },
+    {
+      "id": "eternal-travel",
+      "record_id": "eternal-travel-deaebbb84ff586dbf4d8982d",
+      "name": "永恒道祖神护符",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/永恒道祖神护符/EternalTravel.dll",
+          "sha256": "acbbcb300cc584c17adea969ed2f22db2e2c6733bae672b2d989a016b719cc1c"
+        }
+      ],
+      "version_labels": [
+        "v1.2"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "本包：新增常驻特殊道具“永恒道祖神护符”，不消耗、免确认、两倍施放速度。\n按下左摇杆 L3 直接使用，无需占快捷栏格子。\n长按不连发，菜单保留原输入。"
+    },
+    {
+      "id": "guardian-spirit",
+      "record_id": "guardian-spirit-4a75b82bb04594f01dd33dce",
+      "name": "净御鸟",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "plugins/JingyuniaoDatabaseProbe.dll",
+          "sha256": "e13660702628db9b36f3b3e33f68d052b19f107d24aadf8f2aef509399941c49"
+        }
+      ],
+      "version_labels": [],
+      "samples": [],
+      "notes": "",
+      "changelog": ""
+    },
+    {
+      "id": "guardian-spirit",
+      "record_id": "guardian-spirit-846d891a20fa5316c55c8f04",
+      "name": "净御鸟",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "plugins/JingyuniaoDatabaseProbe.dll",
+          "sha256": "ac371f82f7355a72006523d6a2a3aa2d46e7e7fa61f8adf6293faa042791cda8"
+        }
+      ],
+      "version_labels": [
+        "v1.0.0"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "核心改动：修正净属性抗性与积累，附加伤害显示绿色数字，并使用青绿特效。\n解锁条件：通关奈落狱 108 层并开启深层；已开启深层的角色自动补发。\n独立于原版天御鸟，不要求启用多武器切换。"
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-05cc29735dffce81584c5d7a",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "694d84d459c99de22b24248156d9991d4deef89f3b870b7700f8c10c6e6475d8"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBWeaponSkill.dll",
+          "sha256": "252aff05548b0ec3132a5db829d71e792959249463fa4747b6b7ce536156b639"
+        }
+      ],
+      "version_labels": [
+        "v1.37"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "适用操作：仅调整 LB＋B 机关棍武技，仍需按住 B，原按法速度不变。\n伏虎咆哮：蓄力速度为 1.5 倍，释放速度不变，不自动满蓄。\n缭乱棍／龙虎天地：长按伸长攻击速度为 1.2 倍，短按起手与收招保持原速。"
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-0cc85c2ea902e747975e2f83",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "4e09cd19d345c1a75d91f2344b32b6f22a8394063718bf943e21e432045e344e"
+        },
+        {
+          "path": "plugins/LBBWeaponSkill.dll",
+          "sha256": "aae31c5ae371909df2f00beef9ddeb4b6371875f072459bbf241e5208a283839"
+        }
+      ],
+      "version_labels": [
+        "v1.35"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "修复乱击枪持续突刺时卡死的问题，保留田乐刺和鸣山调整。"
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-0f17b1dc6b3b03163bf22b1b",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "e3ee275107333fd807bd32d02bc95a1a2587742d385c5384947a01a9a33d3301"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBWeaponSkill.dll",
+          "sha256": "23a8327700131f765c7285bc8907bb5aec73ccc7f195f1280813297788d14f6b"
+        }
+      ],
+      "version_labels": [
+        "v1.14"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "本次补上全11种武器轻攻击连段末段的原版接招窗口，并修正已接受的预输入在目标武技起手前过早失去派生关联的问题。\n保持500毫秒预输入，不加速动画；\n已包含v1.14 CT兼容核心：保留原版武技优化.CT文件与原地址布局，合入遇敌、原版连段窗口、500毫秒预输入及连招接入后的派生判定修补。\n蓄力按住B，松开B释放。"
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-19ea86294440f5a58edbf4fd",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "4f847c287a23e55189105203ad05f75b91c0c8174ce1ce5efc49e9ac45bee2c8"
+        },
+        {
+          "path": "plugins/LBBWeaponSkill.dll",
+          "sha256": "826351640a0bfdda7f1be7b3de6c8c88e12a5d5779353b8cb4c86318f8947602"
+        }
+      ],
+      "version_labels": [
+        "v1.20"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "蜻蜓　贰：“蜻蜓”变得可长按蓄力。"
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-1cea495d6c03df93f82836ee",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "1eab028c61436da82449ace16442bac70cc0b08c722ccebe62845836004ab9fa"
+        },
+        {
+          "path": "plugins/LBBWeaponSkill.dll",
+          "sha256": "464205432807097a32f3b84335831731325e69d6af0869dec01bbafa7c376e16"
+        }
+      ],
+      "version_labels": [
+        "v1.29"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": ""
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-247dc6b2195cebe7d29d972a",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "2b9031761067fc3b9d55d17f4a773537e323f175337085be545c4cd2a5827526"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBWeaponSkill.dll",
+          "sha256": "1bf9e728715960c2f257ea1389f7800021fac0f637ded89b10e622cf98177b77"
+        }
+      ],
+      "version_labels": [
+        "v1.40"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "优化连段资源处理，保留原有按键和武技调整。"
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-27b97b3317ee292ad6433d40",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "e209e2b1ce10c5a9100e35e955a051ed0d374826c720e9595794566ab29a2c72"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBWeaponSkill.dll",
+          "sha256": "0b426066a6335469cbfc1860e1adea9ba2480c11822538017de1062693b1d919"
+        }
+      ],
+      "version_labels": [
+        "v1.10"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": ""
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-29851c40be06385f4ce40573",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "7e57b53c82aec010f2cf28ba3c6bc5ca4cc4a1bf413d04048d20d822e3cdc764"
+        },
+        {
+          "path": "plugins/LBBWeaponSkill.dll",
+          "sha256": "ce44eafa9deb6f44e0d587ff95207c94982f5cee172bc95cfc6d2a7e14f4f70c"
+        }
+      ],
+      "version_labels": [
+        "v1.16"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": ""
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-399dca023a9fc58887494f55",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "a55deb60c88c5f5522aa2bbc860969981fb6256ecaa23548d4bcb8c2e6488bf5"
+        },
+        {
+          "path": "plugins/LBBWeaponSkill.dll",
+          "sha256": "a75f3187d325a603e2ffb8a427d6f22e01e49770a66e7e43cda9a7d3dd09694b"
+        }
+      ],
+      "version_labels": [
+        "v1.36"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "调整机关棍横击棍的起手动作，保留长按伸长派生。"
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-3e0c07d30a798e17b33a72b5",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "5955b0aa18f64dd8be9008244c5f4ecb51b3f36ed1302795fb66a93cff43bc6f"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBWeaponSkill.dll",
+          "sha256": "d26a94a60617f798ba31f9411fa65acfdc23004200feb908173740601ed0a0c9"
+        }
+      ],
+      "version_labels": [
+        "v1.38"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "针对“v1.38完整地图键鼠版进奈落加载卡住后闪退，停用LB+B则同图可进入”的对照排查。\n保留键鼠独立按键、全段位武技设置、半秒预输入、B/自选键派生、连段、方向修正及原有三个归档。\n没有配置时仍使用原按法。\n一次成功不代表完全修复。\n离线检查：旧功能与键鼠按住/松开/派生/预输入、真实INI读取、生产初始化保留原生873051 CALL、场景生命周期保护及8种完整地图加载链通过；"
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-4251d2407726502389eee7b8",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "6eb1a779947f6b986316c301831e2a37424c3778b3888673861e8fe55fad733b"
+        },
+        {
+          "path": "plugins/LBBWeaponSkill.dll",
+          "sha256": "a642362f9aaf77ddb56680604272eebac9f62c0460b906afaead446cbb8c6ce6"
+        }
+      ],
+      "version_labels": [
+        "v1.21"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": ""
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-47b44c856e90dc499998431c",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "5ed98fceeb7431d7a30504fa5c4ff74a35ad3dcdc54af94a762b7153aa4cc803"
+        },
+        {
+          "path": "plugins/LBBWeaponSkill.dll",
+          "sha256": "92c399a472b876cf29777fa7f4cd280a11bd972dd7c5e035ababea648d8688c2"
+        }
+      ],
+      "version_labels": [
+        "v1.18"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": ""
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-4bf09d2e9e03ef166340b7c6",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "092153f30eb02d5c6542eb170ae3e96ce16e9a7e5af98ac853f403c202db701b"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBWeaponSkill.dll",
+          "sha256": "e27312e0761dc4164f36381064310ce3c5f3aecb19c06552af560db28132d8b0"
+        }
+      ],
+      "version_labels": [
+        "v1.31"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "带原版“武技优化.CT”兼容处理，未开启CT也可使用。\n全武器LB+B全段位设置、半秒预输入、轻重／闪避／冲刺／武技衔接、B多段派生、已保留的蓄力和方向修正、同名武技自定义效果分槽、站立人类敌人主动处决。\n无想剑只保留1.5倍蓄力、出手原速；\n凝心裁25%水平步伐；\n涅槃裁二段落地收招调整；"
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-561a3ec6d0a7f0c9bb9bf0d9",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "924b42610a5fc1f65eb5e79e6286bf259300ed82afbb565983acc0da3e8f49d9"
+        },
+        {
+          "path": "plugins/LBBWeaponSkill.dll",
+          "sha256": "01dc15826d886bedf938b682fbf354a9257400952a08d74c34d5d1ac765f5b17"
+        }
+      ],
+      "version_labels": [
+        "v1.34"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "适用操作：仅调整长枪 LB＋B，原按法不变。\n乱击枪：结束动作最后一次攻击事件后允许取消，并增加原生残心窗口。\n田乐刺：冲刺结束的最后一次接触后增加残心窗口，冲刺距离和原有命中、停顿动作不变。\n鸣山：蓄力速度提高 50%（1.5 倍），提前松开仍为低蓄力档位。\n残心仍需手动按键，沿用原生精力与窗口规则，不自动回精或自动满残心。"
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-590ee77d7a8914e98a80d534",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "c24459b7fd46fbf897ebaff7511b796b097c97f18adfd3f175a113e22576f9ab"
+        },
+        {
+          "path": "plugins/LBBWeaponSkill.dll",
+          "sha256": "337444c840cf0c561b2e3b8ffd5afec223243936d2239f7c46df01cc9ad2ad43"
+        }
+      ],
+      "version_labels": [
+        "v1.31"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "按游戏实际加载的记录，补齐蜻蜓第一段进入蜻蜓贰蓄力，以及精准投掷松键的旧输入标记适配。\n仍须学习蜻蜓贰，蓄力速度、原按法及原生投掷参数保持原版。\n保留此前功能：LB+B全段位武技设置、半秒预输入、轻重／冲刺／闪避／武技衔接、B多段派生、既有蓄力及方向调整、同名武技自定义效果独立、站立人类主动处决等。\n无想剑只保留1.5倍蓄力且出手原速；\n凝心裁25%水平步伐；\n涅槃裁二段落地收招调整；\n离线原生输入、菜单、旧功能与地图加载链检查通过。"
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-5ace5e1f9c6dab27952b4f5e",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "22bf00df981ad801ad58e52948fbeca64f07f1e90c66186c0fdc98b37ba11922"
+        },
+        {
+          "path": "plugins/LBBWeaponSkill.dll",
+          "sha256": "82d738b9e365b1deeaa356b7558ee503a9d2a903b11ddee6ef8153cba8621078"
+        }
+      ],
+      "version_labels": [
+        "v1.25"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": ""
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-5b446c6e323da5e4d4218ea3",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "90c61149ece622d86a34faaad5dccee73b0abb4d8885dc80f04339ab555b157a"
+        },
+        {
+          "path": "plugins/LBBWeaponSkill.dll",
+          "sha256": "7c1c4b577d1196a235a0416bace0d7be9c91a686ad78e6e17801a6ef8d341409"
+        }
+      ],
+      "version_labels": [
+        "v1.16"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": ""
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-5b98a90566dd81fb300329ba",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "29f574c2b4098a715dbf04d677cec420b5047612f77905842e2a945901ccbbd2"
+        },
+        {
+          "path": "plugins/LBBWeaponSkill.dll",
+          "sha256": "5e6bea5a5494f13c030ca7360da79b8e2833eea688a025e478d2f24c37632a7c"
+        }
+      ],
+      "version_labels": [
+        "v1.38"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "核心改动：新增键鼠独立按键，可使用鼠标侧键 MOUSE4／MOUSE5、字母键或功能键等。\n发动：游戏中的防御键＋自选键；在原 LB＋B 槽设置武技。按住自选键蓄力，松开释放，再按自选键进行多段派生，可连续按两次。\n保留 0.5 秒预输入、手柄 LB＋B 和原防御＋调查操作。\n未设置、设为 NONE 或键名无效时，独立键关闭，原按法保留；改键需重启游戏。避免选择已绑定其他战斗动作的键。\n启动或切回游戏时若自选键已按住，先松开再用；切走窗口会清除预输入。"
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-633505f1b2b0aad7f6465e2c",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "f0f87d793fdc2526245ca7e2f058c1fff348d48a86d40634bb48252a53467f42"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBWeaponSkill.dll",
+          "sha256": "7058c53bcf507691ef73db3a70dec4a234e091a062c86fb28ed700daa44f69e2"
+        }
+      ],
+      "version_labels": [
+        "v1.30"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "带原版“武技优化.CT”兼容处理，未开启CT也可使用。\n全武器LB+B全段位设置、半秒预输入、轻重／闪避／冲刺／武技衔接、B多段派生、已保留的蓄力和方向修正、同名武技自定义效果分槽、站立人类敌人主动处决。\n无想剑只保留1.5倍蓄力、出手原速；\n凝心裁25%水平步伐；\n涅槃裁二段落地收招调整；"
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-633c82c3fc13f0a3e28b9f76",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "39008975c4e8caec3e32f5cb83aec469815240a95268d18bc5b84a9ae504207f"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBWeaponSkill.dll",
+          "sha256": "eadd7fc7fc1b093c504c2de1f44b30cb6c09729d669be0d1e3d4ef128f43139f"
+        }
+      ],
+      "version_labels": [
+        "v1.41"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "适用操作：仅调整 LB＋B／键鼠自选组合键的长枪武技，原按法不变。\n鸣山：按住 B／自选键等待，松开后以原速打出原版满蓄攻击，短按松手也生效；不直接增加伤害倍率。\n水车：仅增强前两段（第 62 帧前）的锁定转向，最低 12 度／原生帧；最后一段保留原处理。无有效锁定目标时不追加转向，伤害、位移和碰撞范围不变。\n风车：松开 B／自选键后逐帧检查结束，不必等待当前转圈完成。结束动作的残心点由第 87 帧提前至第 0 帧，开启原生 30＋24 帧残心窗口，主动取消也从第 0 帧开始。持续按住仍会循环；主动残心或取消可能中断尚未发生的后续攻击。"
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-64eff38bc215089a549621f9",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "01b2145a17525420a4c1ea55f12ca51a428e1afcf49614006238b5bfbca39a68"
+        },
+        {
+          "path": "plugins/LBBWeaponSkill.dll",
+          "sha256": "84bb5f98ea21cf7c24a0ad20c74b509e9dcc61d03f93c370b4767e8b7f5c7093"
+        }
+      ],
+      "version_labels": [
+        "v1.16"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": ""
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-64fb55a75721d89453495117",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "f70e6ec649013bccfc035cd7703ec9ab50946d3c9f9fe1a6cec975641b92bb14"
+        },
+        {
+          "path": "plugins/LBBWeaponSkill.dll",
+          "sha256": "1f60d476511cbc21c22b4bd64b49e088052a9f29cb4387c4b2f2213a9e9e4792"
+        }
+      ],
+      "version_labels": [
+        "v1.20"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "蜻蜓　贰：“蜻蜓”变得可长按蓄力。"
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-68241c922258dc06bf5112ea",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "553cddfdb789953604b41218d61e5f9993d2d7fdc4071799b8a937fa50736993"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBWeaponSkill.dll",
+          "sha256": "44319967376a1d88f57bdc02cdcdc790e157d34864688fcd5ad9509926707a3c"
+        }
+      ],
+      "version_labels": [
+        "v1.13"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "已包含v1.13 CT兼容核心：保留原版武技优化.CT文件与原地址布局，合入遇敌、原版连段窗口、500毫秒预输入及连招接入后的派生判定修补。\n蓄力按住B，松开B释放。\n不包含CT文件，使用玩家原来的第一份“武技优化.CT”。"
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-6f85935a559e9b86b25d4949",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "101e5c2c85f03e76ee3e2cf198cc2b59da80416f8e701f3cbd7aa64354231ea1"
+        },
+        {
+          "path": "plugins/LBBWeaponSkill.dll",
+          "sha256": "9c6cbfaaed089e05759f88b8e2c507a2acf91652cd85c587c42463aa6ae33141"
+        }
+      ],
+      "version_labels": [
+        "v1.27"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": ""
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-7049c7ee272ecc485192e8fa",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "7d5453a20aaff8b5d7625684ba8896dd6a8750318e655fe047194e12eae2ce9b"
+        },
+        {
+          "path": "plugins/LBBWeaponSkill.dll",
+          "sha256": "a27861512d8868acbb61fce8310d11e6221ad2037decffac27d159001fe89719"
+        }
+      ],
+      "version_labels": [
+        "v1.19"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": ""
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-707e821cc5ea9c1d7750ada2",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "c9bbf7863dfe4312751f73bf2c3e316fdb9fe8f2eddd75181fcbd8954cad73c1"
+        },
+        {
+          "path": "plugins/LBBWeaponSkill.dll",
+          "sha256": "34c8307e710c0042958ce5c606a122fc429b35a5cd2af3faeaaea51781dbfa09"
+        }
+      ],
+      "version_labels": [
+        "v1.12"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "增加防御、闪避与原武技衔接时的预输入。"
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-7702bd1bbb1a512bd02f021e",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "ce0533e886f2c3c33965ed1e90d93286dfc0d206e49caebe3a77cd928314553d"
+        },
+        {
+          "path": "plugins/LBBWeaponSkill.dll",
+          "sha256": "09fe9a7d52fc88f02ebe8e6694bf6a3152b03143a46dcccb85801c004294c9e2"
+        }
+      ],
+      "version_labels": [
+        "v1.30"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "按住B应继续保持；\n松开B才由原生窗口判定是否进入精准投掷。\n原按法、v1.29凝心裁25%步伐、掷钓瓶投掷修补以及其他旧功能保留。\n离线回归、精准松键复现对照、菜单及地图加载链检查通过；"
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-7b9ceb8749c6f0bc77ffd34f",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "51fb273d93c3352eca8fb9893ac3b8e44f884d6de56578707c69ad2fc6d0304f"
+        },
+        {
+          "path": "plugins/LBBWeaponSkill.dll",
+          "sha256": "f6e56ed1e06387cf8b28661ba870290b6eb77b1ee644735229a392fdb20f44e3"
+        }
+      ],
+      "version_labels": [
+        "v1.26"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": ""
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-8068449141da7f59dc8bb194",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "41d4c2a1d65e4b3b7bf1f076084d259eab9f5561e5d0378eaba6b70e21c763f8"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBWeaponSkill.dll",
+          "sha256": "364888f178aed531c368447033a48423f4e82ae2c1c111b1c1254cb0f9f79f3e"
+        }
+      ],
+      "version_labels": [
+        "v1.39"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "优化连段资源处理，保留原有按键和武技调整。"
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-82eb477fb40d8925638ce518",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "59c8dd8c119349f5aa576926d1456e18a3bbaa07f725cd6c7bac975c5eedcaab"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBWeaponSkill.dll",
+          "sha256": "1c29970cd3d35b1cc6fdd8062142e554855016bca6fee79e23ee161c6b9b087b"
+        }
+      ],
+      "version_labels": [
+        "v1.42"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "适用操作：鸣山、水车和风车仅调整 LB＋B／键鼠自选组合键；中段闪避攻击转向也作用于原按法。\n鸣山：按住 B／自选键等待，松开后以原速打出原版满蓄攻击，短按松手也生效；不直接增加伤害倍率。\n水车：仅增强前两段（第 62 帧前）的锁定转向，最低 12 度／原生帧；最后一段保留原处理。无有效锁定目标时不追加转向，伤害、位移和碰撞范围不变。\n风车：松开 B／自选键后逐帧检查结束，不必等待当前转圈完成。结束动作的残心点由第 87 帧提前至第 0 帧，开启原生 30＋24 帧残心窗口，主动取消也从第 0 帧开始。持续按住仍会循环；主动残心或取消可能中断尚未发生的后续攻击。\n中段闪轻／闪重：覆盖短闪和翻滚后的轻重攻击共 16 条方向动作。起手至原生命中／结束事件后 4 帧，最低转向速度为 12 度／原生帧；原生更快时保留原值。无有效目标时不追加转向，上下段与普通攻击不变。"
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-83682b7428b1ad4c31d947d2",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "3b4faa0ffae7b229dbe1b163681c408f0d3fc8b7d8e6a78050fdc01e910c34ad"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBWeaponSkill.dll",
+          "sha256": "fb4c85645e419e4102c3ca79ce8521429d86adcb8d0894ce81b70740a4d9cb7a"
+        }
+      ],
+      "version_labels": [
+        "v1.14"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "本版为普通分支，包含v1.13以前的遇敌、全武器全段位LB+B、B续段和半秒预输入修补；\n不包含武技优化CT兼容处理。\n修正游戏已接受LB+B预输入、但目标武技尚未真正起手时，过早清掉后续派生关联的问题；\n保留500毫秒预输入，续段继续按B，蓄力按住B、松开释放。\n已通过离线输入、原版武技判定、菜单及地图加载链检查。\n再确认岩槌、夜叉一文字、手甲连段和防御闪避后的预输入。"
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-860e63a3c4fa7f6d9f792cf0",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "e6a93a57db85d7564f6385af9fd4a8412f0cc70eaaba94bbf75a198a5789c375"
+        },
+        {
+          "path": "plugins/LBBWeaponSkill.dll",
+          "sha256": "06ae011e03e5d250eebae676d475ddb34e0fe99c32abcd76ac3af26ed1d74f2e"
+        }
+      ],
+      "version_labels": [
+        "v1.37"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "适用操作：仅调整 LB＋B 机关棍武技，仍需按住 B，原按法速度不变。\n伏虎咆哮：蓄力速度为 1.5 倍，释放速度不变，不自动满蓄。\n缭乱棍／龙虎天地：长按伸长攻击速度为 1.2 倍，短按起手与收招保持原速。"
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-86a95c6b3902d9f2871cb340",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "43cb594caa5ec1ed83a1fc0f411114ac74b28a372d9fd81b9c4f457e72d42083"
+        },
+        {
+          "path": "plugins/LBBWeaponSkill.dll",
+          "sha256": "de45bcd0fd6da24ba7160bd8a221a2e843b1268e6ef0686d52a8d0e849d5a108"
+        }
+      ],
+      "version_labels": [
+        "v1.22"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": ""
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-8efae9e7fedf197b520295ca",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "564089ec9441df1643ba161e6c8849903e9ed65366c2321cdea623ee116c5deb"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBWeaponSkill.dll",
+          "sha256": "9be81c1767b5327b57617b27416856ac904e8d505e86b00f2e4fb8f772c9ba4d"
+        }
+      ],
+      "version_labels": [
+        "v1.15"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "双刀十字斩：本机玩家通过 LB＋B 释放且存在有效目标时，原版允许转向阶段的每帧最大转向量提高至 2 倍。\n仍受原版最短角度与剩余角度限制，避免转过头。"
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-9553f13452399d89861f7b88",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "76fca3f450087e5d74a0c820b58e959fc521a2c4b82dfea98eed02a6c23a00a8"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBWeaponSkill.dll",
+          "sha256": "9c87978a90f147c44ff3311705a65b817ec622f49eba0fe7dd049ab3a0ec459b"
+        }
+      ],
+      "version_labels": [
+        "v1.10"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "这个包改的是 MOD 本体，不需要修改或换掉你的“武技优化.CT”。\n重新启动游戏，先确认 LB+B 设置菜单和正常出招可用。\nLB+B 继续用你自己在武技设置里选择的技能，三个段位的槽位保留。\nCT 的普通 B 派生在你按住防御时也让位给 LB+B；\n的半秒预输入不属于这份底版。\n只启用你最先提供的“武技优化.CT”。\nMOD 不再把 LB+B 的扩展动作直接塞进原 CT 要定位的原生动作表。\n额外的 LB+B 释放和衔接由 MOD 在判定时合并；"
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-998556dcdffb1c7a6e7a06f4",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "3163c8907aa78594eedcff6031d15ed89e823abf7736d31782e4ae7b5150223c"
+        },
+        {
+          "path": "plugins/LBBWeaponSkill.dll",
+          "sha256": "d3735496a15e7ae1b3f4fde102133113818ea8a7f336798cb97a90a96f412791"
+        }
+      ],
+      "version_labels": [
+        "v1.33"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "适用操作：仅调整 LB＋B 薙刀镰。\n凝心裁：水平位移由原版的 25% 提高至 50%；竖直位移与方向控制不变。\n涅槃裁：命中后进入二段，落地收招由约 2 倍速调整为一次游戏更新内推进到可接普通攻击的阶段。"
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-9ab3a2f030b431ab73356407",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "10a0092eb02a6036d7b53ae1604b5c44c7545d6084687ff36086b64ddcc9db96"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBWeaponSkill.dll",
+          "sha256": "e8862e98bbe32187c57f83e16d950ddf511460d2d077ce18b3236c9ba42a2398"
+        }
+      ],
+      "version_labels": [
+        "v1.16"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "基于普通v1.15，保留全武器LB+B、连段、B续段、500毫秒预输入与十字斩追踪修补。\n原按法释放总卷、其他武技及其他角色按原速处理。\n总卷首段攻击事件在原始动作第98帧。\n起手阶段最高8倍速，并在第97帧前逐步回到原速；\n第97帧及以后使用原速。\n将任意段位LB+B设为总卷，在安全空地对照原按法与LB+B：LB+B的挥刀入鞘应明显加快，随后仍有原来的攻击和收招。\n在60Hz、无其他速度修正的模拟下，首次事件由98个更新步缩到14个，约1.63秒缩到0.23秒。\n已通过三段位、后两段10帧间隔、其他角色/武器/原按法/命中停顿排除，以及输入、菜单和地图加载链回归。\n不包含武技优化CT兼容处理。"
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-9daa6ef7a75b9b1a86b66de8",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "b490dfd1c7c0a533b8d6380fe456962f34171da7d6825a56eaf916d138864652"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBWeaponSkill.dll",
+          "sha256": "9a762e91a7e2fd9e0bc7b1b80c3c830332a986a9a4455b8ff0625fd8ae0226d5"
+        }
+      ],
+      "version_labels": [
+        "v1.37"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": ""
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-9fa8885e28624e95696d862e",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "2846d529825707507688ebc50e9a5d94941a342ea36ee7afb1ec9a6c88970e84"
+        },
+        {
+          "path": "plugins/LBBWeaponSkill.dll",
+          "sha256": "a431f6358f7ba4c082887d2c1a328ec8731b170344c76437026d92f0d10a1d7b"
+        }
+      ],
+      "version_labels": [
+        "v1.24"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": ""
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-a14feed6ff6f9802b4ca8c62",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "a5b732f864cc78bbe1c718d72360ff7cdca87c5b841b4fb90818bc6d408854a4"
+        },
+        {
+          "path": "plugins/LBBWeaponSkill.dll",
+          "sha256": "33a822d5f8d1ef0d422b67fb3b358182e67b2fd8a61a1abbb687438dd5f4c6ee"
+        }
+      ],
+      "version_labels": [
+        "v1.23"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": ""
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-a839f8232e38ded70bdf6ace",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "d93a2852e2be5d771ccc414bc1578d414113c6aec1943d642a07fe509ad2dae1"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBWeaponSkill.dll",
+          "sha256": "cd1775ee0f02464e85ef696afe7b8191678bb242985bd058e37c4be3eaf02d9a"
+        }
+      ],
+      "version_labels": [
+        "v1.13"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "LB+B先修改入口后，深层启动校验不通过，出现DLL已经加载但深层功能失效。\n基于v1.13 CT兼容版：武技组合键仍是LB+B，续段继续按B，保留500毫秒预输入及原有CT兼容逻辑。\n需要武技优化CT的玩家，继续使用原来的第一份“武技优化.CT”。\n已通过LB+B菜单、输入、派生、预输入、CT数据视图和独立入口回归。"
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-aaff40572d09832665e80f7f",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "3636a3cadf5411adf3ca8adaa0c164409a2c52e0ab0760baf4f957426dc72907"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBWeaponSkill.dll",
+          "sha256": "e2d2517d057090158f4ad0749185d644cbb104d317f3d795abf214af75c5b45d"
+        }
+      ],
+      "version_labels": [
+        "v1.16"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "基于普通v1.15，保留全武器LB+B、连段、B续段、500毫秒预输入与十字斩追踪修补。\n原按法释放总卷、其他武技及其他角色按原速处理。\n总卷首段攻击事件在原始动作第98帧。\n起手阶段最高8倍速，并在第97帧前逐步回到原速；\n第97帧及以后使用原速。\n将任意段位LB+B设为总卷，在安全空地对照原按法与LB+B：LB+B的挥刀入鞘应明显加快，随后仍有原来的攻击和收招。\n在60Hz、无其他速度修正的模拟下，首次事件由98个更新步缩到14个，约1.63秒缩到0.23秒。\n已通过三段位、后两段10帧间隔、其他角色/武器/原按法/命中停顿排除，以及输入、菜单和地图加载链回归。\n不包含武技优化CT兼容处理。"
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-b22a03dac4b5d1ea6112b7a0",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "284c400b9ba01c2124806171ef9eaf57c2930cde1c086b272bec443219f2c6a0"
+        },
+        {
+          "path": "plugins/LBBWeaponSkill.dll",
+          "sha256": "1277501b0fc5e30aae3747f902ec3a46dc1ee14220a5e93789373a855671941b"
+        }
+      ],
+      "version_labels": [
+        "v1.17"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": ""
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-d4d53fbd66a1b764f0fb181c",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "9ee8fc3c081f6bcf27ee40776df68544d05fd68528d0973fd36bf2c7ea33fbed"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBWeaponSkill.dll",
+          "sha256": "9280a14c7b318dc9b5f6c60e8911270fb7f5170cc4b60901dad6ba2da060a16d"
+        }
+      ],
+      "version_labels": [
+        "v1.13"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "基于本人已测试的 v1.12 半秒预输入版。\n本次修补：闪避轻攻击等动作接入 LB+B 武技时，之前把动画帧误当成秒数，导致后续派生判定过早失效。\n按法保持原样：LB+B 起手；\n蓄力按住 B，松开 B 释放。\n保留500毫秒预输入。\n蓄力松开、预输入边界和地图加载链检查通过。\n再测试其他多段武技的同类连招，及岩槌、夜叉一文字、五月雨踢后接LB+B和半秒预输入。\n本版不包含武技优化CT兼容修补。"
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-edcd82289d288f3d506cb675",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "d032f8a8dd1b233a27e78fdc1921e4adecc38bed4418752c64a2eb04436e62ab"
+        },
+        {
+          "path": "plugins/LBBWeaponSkill.dll",
+          "sha256": "e562fa6a146a778ebfdd21eb94949d66bee94f0366b47f20f96bfe7c6f7625b0"
+        }
+      ],
+      "version_labels": [
+        "v1.11"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "补齐全武器的衔接窗口，改善五月雨踢击后的武技衔接。"
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-eff781f8a8a035e2e2b59bf0",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "89db2e58cf2e495106391de742d2b3cca902cb8c77d8d94af11adb08561d451f"
+        },
+        {
+          "path": "plugins/LBBWeaponSkill.dll",
+          "sha256": "9d4bede970b79bc04fb12a908d52347bfad9f0653d46327ba56c4cfa0de227b8"
+        }
+      ],
+      "version_labels": [
+        "v1.28"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": ""
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-f0631e9831010d034cac8c6d",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "c31c83fd3536c8e959fb35a8aee3dc0d605f0415747389251d322577a0552690"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBWeaponSkill.dll",
+          "sha256": "a4c92bf45daf96c315a401f2c993213880776da310027ba6bfb0ebca87ab8c54"
+        }
+      ],
+      "version_labels": [
+        "v1.32"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "切场景时，LB+B会先确认缓存的角色仍是当前受控角色，才读取该角色的输入和动作。\n保留v1.31既有武技、蜻蜓蓄力、连段、预输入、总卷和其他动画速度设置。"
+    },
+    {
+      "id": "lb-b-skill",
+      "record_id": "lb-b-skill-f94f2d99ad308e7e21ace499",
+      "name": "LB＋B 武技",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "268e4f72148eab1fa64f39f0eb084ed427efe2693310e2b5313d5267c3229031"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBWeaponSkill.dll",
+          "sha256": "c642e89c3ce4cafe42f61916e0313d479dfcb2ef21bf074b4e4ce566acff81d4"
+        }
+      ],
+      "version_labels": [
+        "v1.43"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "适用操作：LB＋B，或键鼠自选组合键；原按法不变。\n鸣山：取消持键等待，原先 31 帧准备过程在首个有效更新内推进至攻击；短按、长按均直接出手，不必松手。后续动作保持原速，保留原生满蓄攻击。\n地鸣：蓄力速度由 1.2 倍调整为 1.1 倍。提前松开仍按原生蓄力档位判定，攻击与收招速度不变。"
+    },
+    {
+      "id": "shinjuku-map",
+      "record_id": "shinjuku-map-95306a26d11cb7f9cba2fd96",
+      "name": "新宿地图",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "plugins/ShinjukuMap.dll",
+          "sha256": "adc68d925a973781796830a09926fac58f9e0a68ad1230234757357af067db55"
+        }
+      ],
+      "version_labels": [
+        "r53"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "改善落地和平台碰撞，修正模型对齐，优化进图时的碰撞处理。"
+    },
+    {
+      "id": "third-shortcut",
+      "record_id": "third-shortcut-0a51e7c34bd70c0a8b741516",
+      "name": "第三栏快捷道具",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/第三栏快捷道具/ThirdShortcut.dll",
+          "sha256": "462830b4e6fdb29ab346c3f8da87494bc884f9d8e03c14b045152add7d36b2a4"
+        }
+      ],
+      "version_labels": [
+        "v1.6.4.0"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": ""
+    },
+    {
+      "id": "third-shortcut",
+      "record_id": "third-shortcut-0da3dae5e2f3c8ecefe2a7b5",
+      "name": "第三栏快捷道具",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/第三栏快捷道具/ThirdShortcut.dll",
+          "sha256": "0981af569f873f7e7716154b01c0de179eaaad2da6470b06186f7beae6479c27"
+        }
+      ],
+      "version_labels": [
+        "v1.7.1"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "核心改动：新增 R1 优先规则，避免换武器时误用第三栏道具。\n操作：Xbox B＋↑／→／↓／←；PS 手柄为 ○＋方向键。\n优先规则：按住 R1 时不触发第三栏，优先收刀或换武器；取消尚未执行的预输入，不取消已经开始的道具动作。\nB 与 R1 同时按住后，仅松开 R1 不会用道具；需先松开 B，再重新按 B＋方向键。\n保留 500 毫秒预输入、半尺寸显示、菜单第三组编辑和普通两页循环。"
+    },
+    {
+      "id": "third-shortcut",
+      "record_id": "third-shortcut-162d738c084f2a494894e59a",
+      "name": "第三栏快捷道具",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/第三栏快捷道具/ThirdShortcut.dll",
+          "sha256": "b96b1c1ff74c42a5791abed5af1fe9f8e5090bcec5d876e5f09a4353b7628086"
+        }
+      ],
+      "version_labels": [
+        "v1.7.0"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "手柄快捷键由R2＋方向键改为 Xbox B＋↑→↓←（PS手柄对应○＋方向键）。\n半尺寸显示、500毫秒预输入、原生第三组编辑及普通两页循环保持。\n请先在安全位置检查：按住B分别按四方向；\n连招收尾预输入；\n菜单及单按B仍正常。"
+    },
+    {
+      "id": "third-shortcut",
+      "record_id": "third-shortcut-2f087654ed936057dacf1b6d",
+      "name": "第三栏快捷道具",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "plugins/ThirdShortcut.dll",
+          "sha256": "443074ba014be9dcba7073728eef96fa80b2598be892f69bb34898f65a341c3d"
+        }
+      ],
+      "version_labels": [
+        "v1.6.2"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "基于已验证的第三栏 v1.6.1 保留：50%尺寸、R2＋四方向、500ms预输入、普通两页循环、第三组菜单编辑、普通第二页按键拦截。"
+    },
+    {
+      "id": "third-shortcut",
+      "record_id": "third-shortcut-399347171fb7fd45fe804dad",
+      "name": "第三栏快捷道具",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/第三栏快捷道具/ThirdShortcut.dll",
+          "sha256": "5e58ef715141f2e6410c80296fbbe638160ecdb0cec76eda8b7fa13a82d12918"
+        }
+      ],
+      "version_labels": [
+        "v1.5"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "本包：第三组以原来宽高的 50% 固定显示在原快捷栏上方，R2＋方向键使用第三组。\n原生快捷栏设置保留三组供菜单编辑，实战普通切页只循环前两组，并正确显示两个页码。\n本包不接管 L3，也不需要永恒护符 Mod。"
+    },
+    {
+      "id": "third-shortcut",
+      "record_id": "third-shortcut-45bf8a1e3163d729e3068ec9",
+      "name": "第三栏快捷道具",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "plugins/第三栏快捷道具.dll",
+          "sha256": "0fc566687cec8be0d79cd314132a54c442a1d13ca26da794746ec0d0ccd2b01c"
+        }
+      ],
+      "version_labels": [
+        "v1.7.1"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "核心改动：新增 R1 优先规则，避免换武器时误用第三栏道具。\n操作：Xbox B＋↑／→／↓／←；PS 手柄为 ○＋方向键。\n优先规则：按住 R1 时不触发第三栏，优先收刀或换武器；取消尚未执行的预输入，不取消已经开始的道具动作。\nB 与 R1 同时按住后，仅松开 R1 不会用道具；需先松开 B，再重新按 B＋方向键。\n保留 500 毫秒预输入、半尺寸显示、菜单第三组编辑和普通两页循环。"
+    },
+    {
+      "id": "third-shortcut",
+      "record_id": "third-shortcut-46fc9b4a90fde2e500cb845d",
+      "name": "第三栏快捷道具",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/第三栏快捷道具/ThirdShortcut.dll",
+          "sha256": "30d2ba3d2ad13c177df0a1285db2f7bb46f6b6423538cbb7f777df895ca43106"
+        }
+      ],
+      "version_labels": [
+        "v1.6.1.1"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": ""
+    },
+    {
+      "id": "third-shortcut",
+      "record_id": "third-shortcut-4a9c338431970ee9b3a510d6",
+      "name": "第三栏快捷道具",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/第三栏快捷道具/ThirdShortcut.dll",
+          "sha256": "b164a0cc9a65e55a9c7f66530aab7a61cc9abb59fb1b846bf7bf6c53ee3eab97"
+        }
+      ],
+      "version_labels": [
+        "v1.7.2"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "核心改动：修复地图版启动时第三栏不显示的问题。\n操作：Xbox B＋↑／→／↓／←；PS 手柄为 ○＋方向键。\n优先规则：按住 R1 时不触发第三栏，优先收刀或换武器；R1 会取消尚未执行的预输入，不取消已经开始的道具动作。\n恢复操作：B 与 R1 同时按住后，只松开 R1 不会使用道具；需先松开 B，再重新按 B＋方向键。\n保留 500 毫秒预输入、半尺寸显示、菜单第三组编辑，以及普通两页循环。"
+    },
+    {
+      "id": "third-shortcut",
+      "record_id": "third-shortcut-5e3336ce5c7ac14fef17d243",
+      "name": "第三栏快捷道具",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/第三栏快捷道具/ThirdShortcut.dll",
+          "sha256": "9b942c4bbcabd8500cb0bfd55bde7f56219e342c339d72fc589cd662b59fc9ba"
+        }
+      ],
+      "version_labels": [
+        "v1.6.1"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "游戏设置：原生快捷栏数量设为 3 组，可在菜单中编辑第三组。\n第三组以 50% 宽高固定显示在原栏上方。\n按住 R2，再按方向键使用第三组道具。\n组合键预输入保留 0.5 秒，长按不连发。\n补齐普通第二栏的输入拦截，修复 R2 组合键误用普通栏的漏项。\n释放与预输入流程沿用 v1.6。"
+    },
+    {
+      "id": "third-shortcut",
+      "record_id": "third-shortcut-8d88d4a4f0a7340c84dcc77f",
+      "name": "第三栏快捷道具",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/第三栏快捷道具/ThirdShortcut.dll",
+          "sha256": "c72b3e9e0ef26c4c7dcd46fba21634f5ce5efbf56f5f5e93ca817906a4af3f7d"
+        }
+      ],
+      "version_labels": [
+        "v1.6"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "本包：第三组以原来宽高的 50% 固定显示在原快捷栏上方，R2＋方向键使用第三组。\n原生快捷栏设置保留三组供菜单编辑，实战普通切页只循环前两组，并正确显示两个页码。\n本包不接管 L3，也不需要永恒护符 Mod。\n预输入：提前按下的指令保留 0.5 秒，等动作允许使用时接续释放；\n只保留最后一次指令，长按不连发，打开菜单或超时会清除。\n第三栏 R2 组合键优先于普通方向键道具；\n请先按住 R2 再按方向。"
+    },
+    {
+      "id": "third-shortcut",
+      "record_id": "third-shortcut-a4e19e5c45037ed84f8aee76",
+      "name": "第三栏快捷道具",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "plugins/第三栏快捷道具.dll",
+          "sha256": "3dfecede35fd11011b572055d1462281cf4468e57f722a72e1e92fccc059ecb9"
+        }
+      ],
+      "version_labels": [
+        "v1.7.0"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "手柄快捷键由R2＋方向键改为 Xbox B＋↑→↓←（PS手柄对应○＋方向键）。\n半尺寸显示、500毫秒预输入、原生第三组编辑及普通两页循环保持。\n请先在安全位置检查：按住B分别按四方向；\n连招收尾预输入；\n菜单及单按B仍正常。"
+    },
+    {
+      "id": "third-shortcut",
+      "record_id": "third-shortcut-b9a1c3d60018ba9f9a1d897f",
+      "name": "第三栏快捷道具",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "plugins/第三栏快捷道具.dll",
+          "sha256": "b11447d7d3133a35b7913ef03ce52e85bf98de2bb6cb1e25b7038e8651e6dcc7"
+        }
+      ],
+      "version_labels": [
+        "v1.7.2"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "核心改动：修复地图版启动时第三栏不显示的问题。\n操作：Xbox B＋↑／→／↓／←；PS 手柄为 ○＋方向键。\n优先规则：按住 R1 时不触发第三栏，优先收刀或换武器；R1 会取消尚未执行的预输入，不取消已经开始的道具动作。\n恢复操作：B 与 R1 同时按住后，只松开 R1 不会使用道具；需先松开 B，再重新按 B＋方向键。\n保留 500 毫秒预输入、半尺寸显示、菜单第三组编辑，以及普通两页循环。"
+    },
+    {
+      "id": "third-shortcut",
+      "record_id": "third-shortcut-e67c9da16d452056a01c52ad",
+      "name": "第三栏快捷道具",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/第三栏快捷道具/ThirdShortcut.dll",
+          "sha256": "ff0c264fac12b62d33fcc3737289bdd790ba1a727865038e5b1a6acfba006f5f"
+        }
+      ],
+      "version_labels": [
+        "v1.7.0"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "手柄快捷键由R2＋方向键改为 Xbox B＋↑→↓←（PS手柄对应○＋方向键）。\n半尺寸显示、500毫秒预输入、原生第三组编辑及普通两页循环保持。\n请先在安全位置检查：按住B分别按四方向；\n连招收尾预输入；\n菜单及单按B仍正常。"
+    },
+    {
+      "id": "third-shortcut",
+      "record_id": "third-shortcut-f3328ecaeb051f55c41308dc",
+      "name": "第三栏快捷道具",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/第三栏快捷道具/ThirdShortcut.dll",
+          "sha256": "cadb2679a665b431782a81e50828fa7e63d3bfbca15db5e3420d4076ad177974"
+        }
+      ],
+      "version_labels": [
+        "v1.7.2"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "核心改动：修复地图版启动时第三栏不显示的问题。\n操作：Xbox B＋↑／→／↓／←；PS 手柄为 ○＋方向键。\n优先规则：按住 R1 时不触发第三栏，优先收刀或换武器；R1 会取消尚未执行的预输入，不取消已经开始的道具动作。\n恢复操作：B 与 R1 同时按住后，只松开 R1 不会使用道具；需先松开 B，再重新按 B＋方向键。\n保留 500 毫秒预输入、半尺寸显示、菜单第三组编辑，以及普通两页循环。"
+    },
+    {
+      "id": "third-shortcut",
+      "record_id": "third-shortcut-f424edbc9bb9f0c0580aaf75",
+      "name": "第三栏快捷道具",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "plugins/第三栏快捷道具.dll",
+          "sha256": "3a27e51c77d23fa59890023925b9200bbfeed84ba0f95b884aa2a1347fff81df"
+        }
+      ],
+      "version_labels": [
+        "v1.6.2.2"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": ""
+    },
+    {
+      "id": "third-shortcut",
+      "record_id": "third-shortcut-fde02b0e28d773ef9127e8a5",
+      "name": "第三栏快捷道具",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/第三栏快捷道具/ThirdShortcut.dll",
+          "sha256": "ecc8f164678104be03be398b9a196fd796ea1a93166001e030d633d13bc24c54"
+        }
+      ],
+      "version_labels": [
+        "v1.7.1"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "核心改动：新增 R1 优先规则，避免换武器时误用第三栏道具。\n操作：Xbox B＋↑／→／↓／←；PS 手柄为 ○＋方向键。\n优先规则：按住 R1 时不触发第三栏，优先收刀或换武器；取消尚未执行的预输入，不取消已经开始的道具动作。\nB 与 R1 同时按住后，仅松开 R1 不会用道具；需先松开 B，再重新按 B＋方向键。\n保留 500 毫秒预输入、半尺寸显示、菜单第三组编辑和普通两页循环。"
+    },
+    {
+      "id": "weapon-switch",
+      "record_id": "weapon-switch-08f2e62d2a9c769dd51f8ddc",
+      "name": "多武器切换",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "plugins/SixWeaponSwitch.dll",
+          "sha256": "0a9f78f3b45b5e3c32c1679839f7eca4897f8a6be50da3b7c9573f2592a98a44"
+        }
+      ],
+      "version_labels": [
+        "v3"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": ""
+    },
+    {
+      "id": "weapon-switch",
+      "record_id": "weapon-switch-15eacb11b268635f60576c90",
+      "name": "多武器切换",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "plugins/SixWeaponSwitch.dll",
+          "sha256": "c739223ab7381872c120bbe76ade65d5c6456815c95bab769bc71e86614b35cd"
+        }
+      ],
+      "version_labels": [
+        "v3",
+        "v4"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": ""
+    },
+    {
+      "id": "weapon-switch",
+      "record_id": "weapon-switch-1d76a0c508d0f1cbcd9c6c5a",
+      "name": "多武器切换",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "plugins/SixWeaponSwitch.dll",
+          "sha256": "a3bed2abbd0ca4ba03249ffa4fde225933aa14cc61089b062abb79c9191970c4"
+        }
+      ],
+      "version_labels": [
+        "v3"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "绑定：装备页按 R2＋Y 打开面板，A 绑定、B 返回。\n切武器：R1＋↑／←／→ 选择三把额外武器，R1＋↓ 切回原版双槽。\n其他操作：R2＋←／→ 翻道具页，R2＋↑ 切换远程武器。"
+    },
+    {
+      "id": "weapon-switch",
+      "record_id": "weapon-switch-df767354a38e6b90377dc3ba",
+      "name": "多武器切换",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "plugins/SixWeaponSwitch.dll",
+          "sha256": "9cefadbdde5c97e8f830006aef3739837f4440952f289fe4bf85f3e88510ee36"
+        }
+      ],
+      "version_labels": [
+        "v3"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": ""
+    },
+    {
+      "id": "zongjuan",
+      "record_id": "zongjuan-4b70004d2f28ce9b87f59161",
+      "name": "总卷 · 领域展开",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "ZongJuanSound.dll",
+          "sha256": "cf82ef551a6ceb237b1cc5670f3fc80cddce7027b5741da01d29fb6c17bcb9e7"
+        },
+        {
+          "path": "Mods/总卷-领域展开/ZongJuanSound.dll",
+          "sha256": "b1ddc6645e685cb290cdce381e5399ea98ebeba77a4fe7ab0449f7f668111d89"
+        }
+      ],
+      "version_labels": [
+        "v1"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "核心改动：修复模组或音频改名后音效失效的问题。\n音频替换或配置变化约 1 秒内自动载入，下次总卷开始时生效；正在出招时不补播。"
+    },
+    {
+      "id": "zongjuan",
+      "record_id": "zongjuan-a831d0db74719b8ebc183243",
+      "name": "总卷 · 领域展开",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "Mods/ZongJuanSound/ZongJuanSound.dll",
+          "sha256": "cf82ef551a6ceb237b1cc5670f3fc80cddce7027b5741da01d29fb6c17bcb9e7"
+        }
+      ],
+      "version_labels": [
+        "v1"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "默认音量 100%，延迟 0 ms；"
+    }
+  ]
+}
