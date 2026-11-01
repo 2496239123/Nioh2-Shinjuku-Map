@@ -91,45 +91,6 @@
       "prefix": ""
     },
     {
-      "id": "weapon-switch",
-      "kind": "mod",
-      "name": "五武器切换",
-      "version": "V3",
-      "downloads": [
-        {
-          "url": "https://www.ilanzou.com/s/kLwyXzPmV"
-        }
-      ],
-      "changelog": "装备页 R2＋Y 打开绑定面板，A 绑定、B 返回。\nR1＋↑／←／→ 选择三把额外武器，R1＋↓ 切回原版双槽。\nR2＋←／→ 翻道具页，R2＋↑ 切换远程武器。",
-      "requirements": "仁王2 Steam 1.28.8.0；配套的 r48／r53 完整地图及新版插件体系。包内四个 DLL 需配套核对；入口与其他包不同，不能直接覆盖现有组合。",
-      "sha256": "6939a3112eac195d6a0e2620f1e89d1be183c7c6d195349b3def93534674ee02",
-      "files": [
-        {
-          "path": "Nioh2Mods.original.dinput8.dll",
-          "sha256": "51c43a11e7cd5653f61d756f2da48daa5a089c41cf5b1920b832739ffb15d078"
-        },
-        {
-          "path": "PairedNativeHostR4.previous.dinput8.dll",
-          "sha256": "825cbf4eac01856c5b202a788a1a817f194ad5f8bfd37597e354b2783ad53dd7"
-        },
-        {
-          "path": "dinput8.dll",
-          "sha256": "4a0272c02b6a22ebf70f0cab3411a1ae563ac08c589508d709bb053b44e199ca"
-        },
-        {
-          "path": "plugins/SixWeaponSwitch.dll",
-          "sha256": "a3bed2abbd0ca4ba03249ffa4fde225933aa14cc61089b062abb79c9191970c4"
-        }
-      ],
-      "recognition_files": [
-        {
-          "path": "plugins/SixWeaponSwitch.dll",
-          "sha256": "a3bed2abbd0ca4ba03249ffa4fde225933aa14cc61089b062abb79c9191970c4"
-        }
-      ],
-      "prefix": "五武器V3_dinput8直连_极简安装包/复制到游戏目录"
-    },
-    {
       "id": "lb-b-skill",
       "kind": "mod",
       "name": "LB＋B 武技",
@@ -183,6 +144,45 @@
         }
       ],
       "prefix": ""
+    },
+    {
+      "id": "weapon-switch",
+      "kind": "mod",
+      "name": "五武器切换",
+      "version": "1.0",
+      "downloads": [
+        {
+          "url": "https://www.ilanzou.com/s/HRxyXNuTZ"
+        }
+      ],
+      "changelog": "装备页 R2＋Y 打开绑定面板，A 绑定、B 返回。\nR1＋↑／←／→ 选择三把额外武器，R1＋↓ 切回原版双槽。\nR2＋←／→ 翻道具页，R2＋↑ 切换远程武器。",
+      "requirements": "仁王2 Steam 1.28.8.0；配套的 r48／r53 完整地图及新版插件体系。包内四个 DLL 需配套核对；入口与其他包不同，不能直接覆盖现有组合。",
+      "sha256": "344d4d3a672566c512663e54384d584e61ea7769dcf90cf5993a26c8bf17b712",
+      "files": [
+        {
+          "path": "Nioh2Mods.original.dinput8.dll",
+          "sha256": "51c43a11e7cd5653f61d756f2da48daa5a089c41cf5b1920b832739ffb15d078"
+        },
+        {
+          "path": "PairedNativeHostR4.previous.dinput8.dll",
+          "sha256": "825cbf4eac01856c5b202a788a1a817f194ad5f8bfd37597e354b2783ad53dd7"
+        },
+        {
+          "path": "dinput8.dll",
+          "sha256": "4a0272c02b6a22ebf70f0cab3411a1ae563ac08c589508d709bb053b44e199ca"
+        },
+        {
+          "path": "plugins/SixWeaponSwitch.dll",
+          "sha256": "a3bed2abbd0ca4ba03249ffa4fde225933aa14cc61089b062abb79c9191970c4"
+        }
+      ],
+      "recognition_files": [
+        {
+          "path": "plugins/SixWeaponSwitch.dll",
+          "sha256": "a3bed2abbd0ca4ba03249ffa4fde225933aa14cc61089b062abb79c9191970c4"
+        }
+      ],
+      "prefix": "五武器切换_v1.0_极简安装包/复制到游戏目录"
     }
   ],
   "history": [
@@ -2006,6 +2006,25 @@
       "samples": [],
       "notes": "",
       "changelog": "默认音量 100%，延迟 0 ms；"
+    },
+    {
+      "id": "weapon-switch",
+      "record_id": "weapon-switch-retired-v3-6939a3112eac195d",
+      "name": "五武器切换",
+      "scope": "components",
+      "installable": false,
+      "fingerprints": [
+        {
+          "path": "plugins/SixWeaponSwitch.dll",
+          "sha256": "a3bed2abbd0ca4ba03249ffa4fde225933aa14cc61089b062abb79c9191970c4"
+        }
+      ],
+      "version_labels": [
+        "旧编号 V3"
+      ],
+      "samples": [],
+      "notes": "",
+      "changelog": "装备页 R2＋Y 打开绑定面板，A 绑定、B 返回。\nR1＋↑／←／→ 选择三把额外武器，R1＋↓ 切回原版双槽。\nR2＋←／→ 翻道具页，R2＋↑ 切换远程武器。"
     }
   ]
 }
