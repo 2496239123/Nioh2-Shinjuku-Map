@@ -292,25 +292,6 @@
       "changelog": "每份≤8MiB且≤10秒。\n支持中文文件名。"
     },
     {
-      "id": "alatreon",
-      "record_id": "alatreon-13eb09cbe7aded5117c49900",
-      "name": "煌黑龙技能",
-      "scope": "components",
-      "installable": false,
-      "fingerprints": [
-        {
-          "path": "Mods/AlatreonSkillBridge/AlatreonSkillBridge.dll",
-          "sha256": "b3db7c2c37e89fcb1ae5fdcb91a8a355a231fd38c94be4d781065c5eac2a492e"
-        }
-      ],
-      "version_labels": [
-        "v1"
-      ],
-      "samples": [],
-      "notes": "",
-      "changelog": "修复奈落狱部分场景中刀光和电弧不显示的问题。"
-    },
-    {
       "id": "eternal-travel",
       "record_id": "eternal-travel-00f9cd217cbe2da783a073c8",
       "name": "永恒道祖神护符",
