@@ -183,6 +183,94 @@
         }
       ],
       "prefix": "五武器切换_v1.0_极简安装包/复制到游戏目录"
+    },
+    {
+      "id": "lb-b-skill",
+      "kind": "mod",
+      "name": "LB＋B 武技",
+      "version": "1.43.1",
+      "downloads": [
+        {
+          "url": "https://www.ilanzou.com/s/NpVyxOgNm"
+        }
+      ],
+      "changelog": "发布包统一到本机当前入口，保留原有功能和操作。武技核心仍为 v1.43；手柄 LB＋B，键鼠为游戏防御键＋自选键；保留已有按键配置。",
+      "requirements": "仁王2 Steam 1.28.8.0；两包共用同一版统一入口。已有其他入口时请先核对，不要盲目覆盖。",
+      "sha256": "0042dc9f7f260d2c4aa751a4492ec6a35737d1aa1cdf7c67ca6d8395ea23b61b",
+      "files": [
+        {
+          "path": "dinput8.dll",
+          "sha256": "b93099833c9f549831df493c838931118b13bc286f07d540f58f543bc3f39a24"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBWeaponSkill.dll",
+          "sha256": "c642e89c3ce4cafe42f61916e0313d479dfcb2ef21bf074b4e4ce566acff81d4"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "268e4f72148eab1fa64f39f0eb084ed427efe2693310e2b5313d5267c3229031"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBInput.ini",
+          "sha256": "b93c89ea07d6479db2c64da9659525ea09c4e570ce88de79867202926bb73f33"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/archive/archive_00.lnk",
+          "sha256": "3cd1bfa2df80eba911d82855817499b4d47f6d7765d51aefa5315d175129aa3c"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/archive/lfm_order_00.bin",
+          "sha256": "b2c5212018c034dcdfda8a12e598add2df65395dfb5441604e76332582343731"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/archive/load_inf_00.bin",
+          "sha256": "b191e5483c98c5309f57341ff46b6377eef7558c4fcc8540136b3b0f0a382182"
+        }
+      ],
+      "recognition_files": [
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBWeaponSkill.dll",
+          "sha256": "c642e89c3ce4cafe42f61916e0313d479dfcb2ef21bf074b4e4ce566acff81d4"
+        },
+        {
+          "path": "Mods/Nioh2LBBOnlyMod_____/LBBOnly.core.dll",
+          "sha256": "268e4f72148eab1fa64f39f0eb084ed427efe2693310e2b5313d5267c3229031"
+        }
+      ],
+      "prefix": "游戏文件",
+      "feature_version": "1.43"
+    },
+    {
+      "id": "weapon-switch",
+      "kind": "mod",
+      "name": "五武器切换",
+      "version": "1.1",
+      "downloads": [
+        {
+          "url": "https://www.ilanzou.com/s/faNyxOg2S"
+        }
+      ],
+      "changelog": "发布包统一到本机当前入口，保留原有功能和操作。装备页 R2＋Y 打开绑定面板，A 绑定、B 返回；R1＋方向键切换武器，保留原版双槽。",
+      "requirements": "仁王2 Steam 1.28.8.0；两包共用同一版统一入口。已有其他入口时请先核对，不要盲目覆盖。",
+      "sha256": "fb3ddebe7e7257236a44de4cf2885d98e0b57275e118151fe2224fbd6797d16d",
+      "files": [
+        {
+          "path": "dinput8.dll",
+          "sha256": "b93099833c9f549831df493c838931118b13bc286f07d540f58f543bc3f39a24"
+        },
+        {
+          "path": "plugins/SixWeaponSwitch.dll",
+          "sha256": "696a1fcf45c8b55cd9882f961d97eaac5cfbde58febbcc1349b9bb813a026df4"
+        }
+      ],
+      "recognition_files": [
+        {
+          "path": "plugins/SixWeaponSwitch.dll",
+          "sha256": "696a1fcf45c8b55cd9882f961d97eaac5cfbde58febbcc1349b9bb813a026df4"
+        }
+      ],
+      "prefix": "游戏文件",
+      "feature_version": "1.0"
     }
   ],
   "history": [
